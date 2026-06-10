@@ -1,0 +1,6 @@
+{
+  "name": "researcher-skills",
+  "description": "Skills for academic researchers: bibliography formatting across ДСТУ, APA, MLA, Chicago, IEEE, and ГОСТ standards.",
+  "version": "1.0.0",
+  "contextFileName": "GEMINI.md"
+}

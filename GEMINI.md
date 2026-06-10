@@ -1,0 +1,1 @@
+@./skills/bibliography/SKILL.md

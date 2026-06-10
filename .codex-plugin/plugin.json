@@ -1,0 +1,35 @@
+{
+  "name": "researcher-skills",
+  "version": "1.0.0",
+  "description": "Skills for academic researchers: bibliography formatting across ДСТУ, APA, MLA, Chicago, IEEE, and ГОСТ standards.",
+  "author": {
+    "name": "Vadym",
+    "email": "vaddimart@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "research",
+    "bibliography",
+    "citations",
+    "academic",
+    "дсту",
+    "apa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Researcher Skills",
+    "shortDescription": "Bibliography formatting and research workflows for academic work",
+    "longDescription": "Format reference lists per ДСТУ 8302:2015, APA 7th, MLA 9th, Chicago 17th, IEEE, and ГОСТ standards. Handles books, journal articles, dissertations, conference papers, websites, and legal documents.",
+    "category": "Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Format my bibliography in APA style.",
+      "Оформи список літератури за ДСТУ."
+    ]
+  }
+}

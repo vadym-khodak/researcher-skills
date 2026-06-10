@@ -1,0 +1,19 @@
+{
+  "name": "researcher-skills",
+  "description": "Skills for academic researchers: bibliography formatting, citation standards, and research workflows",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vadym",
+    "email": "vaddimart@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "research",
+    "bibliography",
+    "citations",
+    "academic",
+    "дсту",
+    "apa"
+  ]
+}
