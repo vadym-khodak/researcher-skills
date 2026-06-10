@@ -32,6 +32,11 @@ A collection of skills for academic researchers, built as a Claude Code plugin.
 | [bibliography](skills/bibliography/SKILL.md) | Format reference lists per ДСТУ, APA, MLA, Chicago, IEEE, ГОСТ | "список літератури", "APA", "references", citation formatting |
 | [cite-inline](skills/cite-inline/SKILL.md) | Insert citation markers into draft text based on a provided source list | "add citations to", "insert references into my text" |
 
+### Academic Integrity
+| Skill | Description | Triggers |
+|-------|-------------|----------|
+| [check-plagiarism](skills/check-plagiarism/SKILL.md) | Detect near-copy passages, insufficient paraphrasing, missing citations, and self-plagiarism | "check plagiarism", "is this plagiarism", "too similar to source" |
+
 ### Metadata & Discoverability
 | Skill | Description | Triggers |
 |-------|-------------|----------|

@@ -12,3 +12,4 @@
 @./skills/suggest-title/SKILL.md
 @./skills/improve-structure/SKILL.md
 @./skills/keywords/SKILL.md
+@./skills/check-plagiarism/SKILL.md
