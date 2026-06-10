@@ -90,6 +90,16 @@ Issue:       Direct copy / Insufficient paraphrase / Missing citation / Style an
 Fix:         Quote and cite | Rewrite using paraphrase skill | Add citation (Author, Year)
 ```
 
+## Ukrainian-Specific Notes
+
+| Topic | Guidance |
+|-------|----------|
+| Unicheck | The most widely used anti-plagiarism system in Ukrainian universities — recommend it for a full similarity report |
+| Uniqueness threshold | Most Ukrainian ЗВО require ≥70–80% originality; check your institution's specific policy |
+| Переклад без посилання | A common form of plagiarism in Ukrainian academic work: translating a Russian or English source into Ukrainian without attribution — flag any translated-sounding passages |
+| Самоплагіат | Reusing your own coursework in a thesis without disclosure is considered plagiarism at most Ukrainian universities |
+| Нормативні акти | Legal and regulatory texts (закони, постанови) are public domain and do not require a plagiarism waiver, but still require citation |
+
 ## Common Mistakes
 
 | Mistake | Fix |

@@ -42,6 +42,15 @@ Rewrites dense or jargon-heavy academic text to be more accessible without losin
 - Terms with no accurate plain-language equivalent (flag these to the user)
 - The logical structure of the argument — simplify expression, not reasoning
 
+## Ukrainian-Specific Notes
+
+| Issue | Guidance |
+|-------|----------|
+| Канцеляризми | Ukrainian bureaucratic language is common in academic text and makes it needlessly dense — simplify: `у зв'язку з тим, що` → `оскільки`; `здійснювати контроль` → `контролювати` |
+| Суржик | Simplification sometimes introduces Russian colloquialisms — check that plain Ukrainian is still correct Ukrainian |
+| Складні конструкції | Ukrainian academic writing overuses noun chains — unpack: `методологія дослідження процесу управління` → `як досліджують управління` |
+| Реєстр | Colloquial Ukrainian differs significantly from academic Ukrainian — when simplifying for a general audience, use neutral-register Ukrainian, not informal speech |
+
 ## Common Mistakes
 
 | Mistake | Fix |

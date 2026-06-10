@@ -44,6 +44,16 @@ Rewrites a passage in different words while preserving the original meaning. Doe
 
 Always cite the original source after paraphrasing — paraphrase does not eliminate the citation requirement.
 
+## Ukrainian-Specific Notes
+
+| Issue | Guidance |
+|-------|----------|
+| Паразитизм суржику | When paraphrasing Ukrainian text, check the result for Russian-origin words introduced accidentally — restructuring often surfaces calques |
+| Гнучкий порядок слів | Ukrainian allows freer word order than English — use this to restructure sentences genuinely: move the rheme (new info) to the end |
+| Паразитні кальки з англійської | When paraphrasing English sources into Ukrainian, avoid literal translation: `take into account` → `враховувати` (not `приймати до уваги`) |
+| Синоніми | Ukrainian has distinct synonym sets from Russian — use a Ukrainian dictionary (e.g., slovnyk.ua) to verify synonyms are genuinely Ukrainian |
+| Цитування | ДСТУ requires a citation even after paraphrase — use `[N]` format matching your reference list |
+
 ## Common Mistakes
 
 | Mistake | Fix |

@@ -43,6 +43,16 @@ Link sentence       — connects to the next paragraph or broader argument
 | Discussion | What result means → how it links to literature → implications |
 | Conclusion | What was found → contribution → future directions |
 
+## Ukrainian-Specific Notes
+
+| Element | Ukrainian Academic Convention |
+|---------|------------------------------|
+| Зв'язки між реченнями | Use Ukrainian connectors: `зокрема`, `водночас`, `натомість`, `таким чином`, `слід зазначити`, `варто підкреслити` |
+| Уникайте кальок | Don't use Russian-derived connectors: avoid `при цьому` → use `при цьому` only carefully; prefer `разом з тим`; avoid `в першу чергу` → use `насамперед` |
+| Тематичне речення | In Ukrainian academic prose, the topic sentence often comes first; the hedge (`свідчить про`, `дає підстави стверджувати`) typically closes the paragraph |
+| Посилання | In-text citations in Ukrainian use `[N]` format per ДСТУ; page references: `[3, с. 45]` |
+| Узагальнення | Standard Ukrainian closing phrases: `Отже, …`, `Таким чином, …`, `Це свідчить про те, що…` |
+
 ## Common Mistakes
 
 | Mistake | Fix |

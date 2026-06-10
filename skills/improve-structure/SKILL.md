@@ -55,6 +55,37 @@ Reviews the current structure of a paper or section and suggests a reorganizatio
 | Redundant content | Same point made in introduction and conclusion without development |
 | Weak conclusion | Conclusion only summarizes without stating contribution or implications |
 
+## Ukrainian-Specific Notes
+
+### Standard Ukrainian Thesis Structure (МОН)
+
+```
+Титульна сторінка
+Завдання на дипломну роботу
+Реферат (українська + англійська)
+Зміст
+Перелік умовних позначень (якщо є)
+Вступ
+  — актуальність теми
+  — мета і завдання дослідження
+  — об'єкт і предмет дослідження
+  — методи дослідження
+  — практичне значення
+Розділ 1. Теоретичні засади…
+Розділ 2. Аналіз…
+Розділ 3. Практичні рекомендації / розробка…
+Висновки
+Список використаних джерел
+Додатки
+```
+
+| Convention | Rule |
+|------------|------|
+| Вступ | Must contain: актуальність, мета, завдання, об'єкт, предмет, методи, новизна, практичне значення |
+| Розділи | Typically 3 chapters for a master's thesis; each must end with висновки до розділу |
+| Висновки | Mirror the завдання from the вступ — each task should have a corresponding conclusion |
+| Обсяг | Bachelor's: 50–70 pages; Master's: 80–100 pages (excluding appendices and references) |
+
 ## Common Mistakes
 
 | Mistake | Fix |

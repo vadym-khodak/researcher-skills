@@ -81,6 +81,16 @@ For a second opinion, use purpose-built classifiers:
 
 All tools have false-positive rates of 5–20% depending on text type. Non-native English, highly technical text, and legal/formal writing score higher regardless of authorship.
 
+## Ukrainian-Specific Notes
+
+| Issue | Guidance |
+|-------|----------|
+| Кальки з англійської | Ukrainian AI text is often generated in English then machine-translated — look for unnatural calques: `приймати до уваги`, `в той час як`, `на основі вищезазначеного` |
+| AI-кліше українською | Common Ukrainian AI boilerplate: `варто зазначити`, `слід відмітити`, `важливо підкреслити`, `у сучасних умовах`, `в умовах глобалізації` |
+| Суржик в AI тексті | Ukrainian AI output sometimes mixes Russian and Ukrainian — both a grammar error and an AI signal |
+| Інструменти | Most English-focused detectors (GPTZero, Originality.ai) are less accurate for Ukrainian text; prefer Unicheck's AI detection module or Copyleaks (which supports Ukrainian) |
+| Хибні спрацювання | Formal Ukrainian bureaucratic and academic register naturally resembles AI output — be especially cautious before flagging Ukrainian academic text |
+
 ## Common Mistakes
 
 | Mistake | Fix |

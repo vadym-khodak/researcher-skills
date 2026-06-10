@@ -49,6 +49,19 @@ Return:
 1. Full annotated text with markers inserted
 2. List of `[CITATION NEEDED]` positions with the sentence text (so the user knows where to find more sources)
 
+## Ukrainian-Specific Notes (ДСТУ)
+
+| Case | ДСТУ Format |
+|------|------------|
+| Single source | `[3]` — number in square brackets, no space before |
+| With page number | `[3, с. 45]` |
+| With page range | `[3, с. 45–47]` |
+| Multiple sources | `[1, 3, 5]` or `[1–3]` for a range |
+| Placement | Before the period: `…зросли на 23% [5].` (most Ukrainian universities) |
+| Multiple claims, one source | Cite once at the end of the last sentence, not after each claim |
+
+For ДСТУ, the reference list is numbered in order of appearance in the text OR alphabetically — check your university's requirements, as both variants exist.
+
 ## Common Mistakes
 
 | Mistake | Fix |

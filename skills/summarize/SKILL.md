@@ -34,6 +34,16 @@ Condenses a longer academic text to its essential points — thesis, key finding
 4. **Conclusions** — what do the authors claim the findings mean?
 5. **Limitations** (if space allows) — what do the authors acknowledge as constraints?
 
+## Ukrainian-Specific Notes
+
+| Format | Description |
+|--------|-------------|
+| Анотація | Standard Ukrainian summary format for theses and journal articles: 1–2 paragraphs, states topic, methods, and results; appears before the main text |
+| Реферат | Extended summary (1–3 pages) required for some Ukrainian academic work; covers all major sections proportionally |
+| Ключові слова | Ukrainian summaries typically end with keywords: `Ключові слова: маркетинг, цифрові медіа, споживча поведінка` |
+| Мова | Theses at Ukrainian universities typically require the summary (анотація) in both Ukrainian and English |
+| Обсяг | МОН guidelines: анотація — 200–250 words for a thesis; journal articles — per journal requirements (usually 150–250 words) |
+
 ## Common Mistakes
 
 | Mistake | Fix |

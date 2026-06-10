@@ -60,6 +60,25 @@ If no supporting sources found after thorough search:
 - Suggest how to revise the claim to match available evidence
 - Offer to search with different keywords
 
+## Ukrainian-Specific Notes
+
+When searching for sources to support a claim in Ukrainian academic work, include Ukrainian-language databases alongside English ones:
+
+| Database | URL | Best for |
+|----------|-----|----------|
+| НБУ ім. Вернадського | nbuv.gov.ua | Ukrainian journals, dissertations, monographs |
+| Наукова Україна | naukaUA.com | Ukrainian academic publications |
+| Репозиторії ЗВО | university dspace/elar portals | Institutional theses and papers |
+| Google Scholar (ua) | scholar.google.com.ua | Broad Ukrainian + international |
+
+**Search in Ukrainian too:** Translate your English search terms into Ukrainian and run parallel queries. Many Ukrainian studies are not indexed in English-language databases.
+
+Example for the claim `"соціальні медіа негативно впливають на успішність студентів"`:
+```
+"соціальні мережі" AND "академічна успішність" AND студенти
+"цифрові медіа" AND "навчальна діяльність" AND університет
+```
+
 ## Common Mistakes
 
 | Mistake | Fix |

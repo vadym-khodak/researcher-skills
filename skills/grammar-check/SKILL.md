@@ -45,6 +45,18 @@ Present corrections in one of these modes — ask the user which they prefer if 
 - **Tracked** — show `~~old~~ → new` inline for each change
 - **Summary only** — list error types and counts, no full rewrite
 
+## Ukrainian-Specific Notes
+
+| Category | Rule |
+|----------|------|
+| Суржик | Flag Russian–Ukrainian mixing: replace Russian-origin words with Ukrainian equivalents (`слідуючий` → `наступний`, `любий` → `будь-який`, `на протязі` → `протягом`) |
+| Russianisms | Common calques to fix: `приймати участь` → `брати участь`; `відноситись` → `стосуватися`; `вибачаюсь` → `вибачте` |
+| Capitalization | Ukrainian titles: only first word + proper nouns capitalized — NOT every major word like English |
+| Відмінки (cases) | Check agreement: adjective–noun case, numeral–noun case (`два дослідження` not `два дослідженнь`) |
+| Дієслівний вид | Aspect consistency: imperfective for ongoing processes, perfective for completed actions |
+| Канцеляризми | Avoid bureaucratic clutter: `з метою здійснення` → `для`; `у відповідності до` → `відповідно до` |
+| Academic connectors | Prefer: `зокрема`, `натомість`, `водночас`, `таким чином`, `отже` over Russian calques |
+
 ## Common Mistakes
 
 | Mistake | Fix |
