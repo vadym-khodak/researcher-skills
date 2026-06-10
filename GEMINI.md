@@ -25,3 +25,4 @@
 @./skills/thesis-defense/SKILL.md
 @./skills/email-supervisor/SKILL.md
 @./skills/figure-caption/SKILL.md
+@./skills/review-paper/SKILL.md

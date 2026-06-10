@@ -38,6 +38,14 @@ A collection of skills for academic researchers, built as a Claude Code plugin.
 | [check-plagiarism](skills/check-plagiarism/SKILL.md) | Detect near-copy passages, insufficient paraphrasing, missing citations, and self-plagiarism | "check plagiarism", "is this plagiarism", "too similar to source" |
 | [detect-ai-text](skills/detect-ai-text/SKILL.md) | Flag linguistic patterns associated with AI-generated content; recommends dedicated tools | "check if AI wrote this", "detect ChatGPT", "AI-generated text" |
 
+### Multi-Perspective Review
+| Skill | Description | Triggers |
+|-------|-------------|----------|
+| [review-paper](skills/review-paper/SKILL.md) | Four independent agents (advocate, methodologist, literature critic, practical critic) review a paper in parallel; synthesizer combines into ranked action items | "review my paper", "critique this article", "peer review simulation" |
+
+> **Claude Code:** Run as a true parallel workflow — `workflows/review-paper.js` spawns all 4 reviewers simultaneously then synthesizes. Pass paper text as `args`.
+> **Other platforms:** The skill runs the same 4 perspectives sequentially.
+
 ### Research Design
 | Skill | Description | Triggers |
 |-------|-------------|----------|
