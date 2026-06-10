@@ -4,3 +4,11 @@
 @./skills/search-guide/SKILL.md
 @./skills/cite-inline/SKILL.md
 @./skills/find-claims/SKILL.md
+@./skills/paraphrase/SKILL.md
+@./skills/summarize/SKILL.md
+@./skills/simplify/SKILL.md
+@./skills/expand-paragraph/SKILL.md
+@./skills/write-abstract/SKILL.md
+@./skills/suggest-title/SKILL.md
+@./skills/improve-structure/SKILL.md
+@./skills/keywords/SKILL.md
