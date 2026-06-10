@@ -86,6 +86,14 @@ Justification: [one paragraph]
 | Наукова новизна | Advocate and literature critic should both comment on whether наукова новизна is substantiated |
 | ВАКівська стаття | For submissions to фахові видання, pay particular attention to the methodologist and literature critic verdicts — these are most commonly cited in rejection decisions |
 
+## Language / Мова
+
+The review is produced in the language of the paper:
+- English paper → English review
+- Ukrainian paper → Ukrainian review (all reviewer summaries, key points, synthesis, verdict justification)
+
+Verdict labels (`accept`, `minor_revisions`, `major_revisions`, `reject`) remain in English as they are structured enum values.
+
 ## Common Mistakes
 
 | Mistake | Fix |

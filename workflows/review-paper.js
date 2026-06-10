@@ -49,11 +49,15 @@ const SYNTHESIS_SCHEMA = {
   required: ['overall_assessment', 'strengths', 'critical_issues', 'open_questions', 'recommended_verdict', 'verdict_justification']
 }
 
+const LANG_INSTRUCTION = `IMPORTANT: Detect the language of the paper and write your entire review in that same language. If the paper is in Ukrainian, respond fully in Ukrainian. If in English, respond in English. Never switch languages mid-review.`
+
 const REVIEWERS = [
   {
     role: 'advocate',
     label: 'Advocate',
     prompt: `You are reviewing an academic paper as an ADVOCATE. Your sole focus: identify genuine strengths, articulate the paper's contribution to the field, and make the case for why it deserves publication or acceptance. Be specific — reference actual content, arguments, and data in the paper.
+
+${LANG_INSTRUCTION}
 
 Return structured output with:
 - role: "advocate"
@@ -69,6 +73,8 @@ ${paper}`
     label: 'Methodologist',
     prompt: `You are reviewing an academic paper as a METHODOLOGICAL CRITIC. Your sole focus: scrutinise the research design, data collection method, analytical approach, sample size and representativeness, validity, reliability, and whether the conclusions are fully warranted by the evidence. Be rigorous and specific.
 
+${LANG_INSTRUCTION}
+
 Return structured output with:
 - role: "methodologist"
 - summary: one paragraph overall assessment from your perspective
@@ -83,6 +89,8 @@ ${paper}`
     label: 'Literature Critic',
     prompt: `You are reviewing an academic paper as a LITERATURE & THEORY CRITIC. Your sole focus: evaluate the theoretical framework, quality and coverage of the literature review, engagement with key debates, use and accuracy of citations, and whether the paper positions itself correctly and originally within the existing body of knowledge.
 
+${LANG_INSTRUCTION}
+
 Return structured output with:
 - role: "literature_critic"
 - summary: one paragraph overall assessment from your perspective
@@ -96,6 +104,8 @@ ${paper}`
     role: 'practical_critic',
     label: 'Practical Critic',
     prompt: `You are reviewing an academic paper as a PRACTICAL IMPACT CRITIC. Your sole focus: evaluate the real-world applicability of the findings, whether practical implications are clearly and convincingly stated, whether conclusions are proportionate to the evidence, and what concrete value practitioners, policymakers, or industry would derive from this work.
+
+${LANG_INSTRUCTION}
 
 Return structured output with:
 - role: "practical_critic"
@@ -131,6 +141,8 @@ const reviewText = validReviews.map(r =>
 
 const synthesis = await agent(
   `You are a SYNTHESIS EDITOR who has received ${validReviews.length} independent peer reviews of an academic paper. Synthesize them into a structured, actionable editorial report that the author can act on immediately.
+
+IMPORTANT: The reviews below may be in Ukrainian or English. Write your entire synthesis in the same language as the reviews.
 
 INDEPENDENT REVIEWS:
 ${reviewText}
