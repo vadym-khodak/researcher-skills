@@ -1,0 +1,14 @@
+{
+  "name": "researcher-skills",
+  "owner": {
+    "name": "Vadym Khodak",
+    "email": "vaddimart@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "researcher-skills",
+      "source": ".",
+      "description": "Skills for academic researchers: bibliography formatting, citation standards, and research workflows"
+    }
+  ]
+}

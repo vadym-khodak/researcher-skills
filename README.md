@@ -87,8 +87,18 @@ A collection of skills for academic researchers, built as a Claude Code plugin.
 
 ### Claude Code
 
+This repo is both the plugin and its own marketplace. Add the marketplace once, then install:
+
 ```bash
-/plugin install researcher-skills
+/plugin marketplace add vadym-khodak/researcher-skills
+/plugin install researcher-skills@researcher-skills
+```
+
+All skills then load automatically in every project. The multi-perspective review workflows live in `workflows/` — copy or symlink them into `~/.claude/workflows/` to make them resolvable globally by name:
+
+```bash
+ln -sf "$(pwd)/workflows/review-paper.js" ~/.claude/workflows/review-paper.js
+ln -sf "$(pwd)/workflows/review-paper-file.js" ~/.claude/workflows/review-paper-file.js
 ```
 
 ### Codex CLI

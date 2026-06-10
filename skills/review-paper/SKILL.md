@@ -23,12 +23,15 @@ Reviews an academic paper from four independent viewpoints simultaneously, then 
 
 ### Option A — Multi-agent workflow (Claude Code, recommended)
 
-Paste your paper text, then run:
+Paste your paper text, then run the `review-paper` workflow, passing the paper text as `args`:
 
 ```
-Use the workflow at: workflows/review-paper.js
-Pass the paper text as args.
+Workflow({ name: "review-paper", args: "<paper text>" })
 ```
+
+To review a file directly, use the `review-paper-file` workflow with the file path as `args` instead.
+
+These workflows resolve by name from `~/.claude/workflows/` (global) or `.claude/workflows/` (project). If neither is set up, reference the script directly with `Workflow({ scriptPath: "<repo>/workflows/review-paper.js" })`.
 
 Four reviewers run in parallel; the synthesizer combines their outputs. Returns structured JSON with all reviews + synthesis report.
 
