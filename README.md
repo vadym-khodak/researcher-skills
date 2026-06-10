@@ -38,6 +38,37 @@ A collection of skills for academic researchers, built as a Claude Code plugin.
 | [check-plagiarism](skills/check-plagiarism/SKILL.md) | Detect near-copy passages, insufficient paraphrasing, missing citations, and self-plagiarism | "check plagiarism", "is this plagiarism", "too similar to source" |
 | [detect-ai-text](skills/detect-ai-text/SKILL.md) | Flag linguistic patterns associated with AI-generated content; recommends dedicated tools | "check if AI wrote this", "detect ChatGPT", "AI-generated text" |
 
+### Research Design
+| Skill | Description | Triggers |
+|-------|-------------|----------|
+| [research-question](skills/research-question/SKILL.md) | Formulate or refine a research question or hypothesis | "help me write a research question", "narrow my topic" |
+| [methodology-advisor](skills/methodology-advisor/SKILL.md) | Choose and justify a research methodology | "what methodology should I use", "qualitative or quantitative" |
+| [research-proposal](skills/research-proposal/SKILL.md) | Structure and draft a research proposal or grant application | "write a research proposal", "grant application" |
+
+### Publishing
+| Skill | Description | Triggers |
+|-------|-------------|----------|
+| [peer-review-response](skills/peer-review-response/SKILL.md) | Write point-by-point responses to peer reviewer comments | "respond to reviewers", "revise and resubmit" |
+| [cover-letter](skills/cover-letter/SKILL.md) | Draft a journal submission cover letter | "cover letter for journal", "submission letter" |
+| [journal-selector](skills/journal-selector/SKILL.md) | Find and compare target journals by scope, impact factor, and indexing | "which journal should I submit to", "find a journal" |
+
+### Interpretation & Analysis
+| Skill | Description | Triggers |
+|-------|-------------|----------|
+| [statistical-explainer](skills/statistical-explainer/SKILL.md) | Interpret and write up statistical results in plain language or academic prose | "explain p-value", "write up my results", "what does this output mean" |
+| [table-to-prose](skills/table-to-prose/SKILL.md) | Convert a data table into written paragraphs for results or discussion | "describe this table in words", "table to text" |
+
+### Academic Communication
+| Skill | Description | Triggers |
+|-------|-------------|----------|
+| [thesis-defense](skills/thesis-defense/SKILL.md) | Prepare for thesis defense — questions, answers, presentation | "prepare for defense", "thesis defense questions" |
+| [email-supervisor](skills/email-supervisor/SKILL.md) | Write professional emails to supervisors, editors, or reviewers | "email my supervisor", "write to the editor" |
+
+### Formatting
+| Skill | Description | Triggers |
+|-------|-------------|----------|
+| [figure-caption](skills/figure-caption/SKILL.md) | Write captions for figures, charts, graphs, and tables | "caption for this figure", "table caption", "підпис до рисунку" |
+
 ### Metadata & Discoverability
 | Skill | Description | Triggers |
 |-------|-------------|----------|

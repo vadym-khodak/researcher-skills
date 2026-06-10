@@ -14,3 +14,14 @@
 @./skills/keywords/SKILL.md
 @./skills/check-plagiarism/SKILL.md
 @./skills/detect-ai-text/SKILL.md
+@./skills/research-question/SKILL.md
+@./skills/methodology-advisor/SKILL.md
+@./skills/research-proposal/SKILL.md
+@./skills/peer-review-response/SKILL.md
+@./skills/cover-letter/SKILL.md
+@./skills/journal-selector/SKILL.md
+@./skills/statistical-explainer/SKILL.md
+@./skills/table-to-prose/SKILL.md
+@./skills/thesis-defense/SKILL.md
+@./skills/email-supervisor/SKILL.md
+@./skills/figure-caption/SKILL.md
