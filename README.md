@@ -36,6 +36,7 @@ A collection of skills for academic researchers, built as a Claude Code plugin.
 | Skill | Description | Triggers |
 |-------|-------------|----------|
 | [check-plagiarism](skills/check-plagiarism/SKILL.md) | Detect near-copy passages, insufficient paraphrasing, missing citations, and self-plagiarism | "check plagiarism", "is this plagiarism", "too similar to source" |
+| [detect-ai-text](skills/detect-ai-text/SKILL.md) | Flag linguistic patterns associated with AI-generated content; recommends dedicated tools | "check if AI wrote this", "detect ChatGPT", "AI-generated text" |
 
 ### Metadata & Discoverability
 | Skill | Description | Triggers |

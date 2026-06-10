@@ -13,3 +13,4 @@
 @./skills/improve-structure/SKILL.md
 @./skills/keywords/SKILL.md
 @./skills/check-plagiarism/SKILL.md
+@./skills/detect-ai-text/SKILL.md
